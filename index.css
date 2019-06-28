@@ -1,0 +1,47 @@
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background-color: rgb(240, 252, 252);
+    text-align: center;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+    border-color: blueviolet;
+
+}
+
+ul {
+    padding-left: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+li {
+    display: inline-block;
+    list-style-type: none;
+    padding: 0 0.5em;
+}
+
+a {
+    color: green;
+}
+
+.error {
+    color: red;
+}
+
+.gallery-img {
+    max-width: 35%;
+    max-height: auto;
+}
