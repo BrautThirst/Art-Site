@@ -40,3 +40,8 @@ a {
 .error {
     color: red;
 }
+
+.gallery-img {
+    max-width: 35%;
+    max-height: auto;
+}
