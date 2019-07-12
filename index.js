@@ -3,7 +3,12 @@ function onload() {
         'action lannah 2.png',
         'booette.png', 
         'wedding peach.png', 
-        'soldier.png'
+        'soldier.png',
+        '5_9_2018.png',
+        'bad cat.png',
+        'beepdoodle 1.png',
+        'd succubus.png',
+        'rumble girl 2.png'
 ]
     var imagesUl = document.getElementById("images-list")
 
