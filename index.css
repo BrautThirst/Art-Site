@@ -25,6 +25,7 @@ ul {
     margin-left: auto;
     margin-right: auto;
     width: 100%;
+    
 }
 
 li {
@@ -44,4 +45,19 @@ a {
 .gallery-img {
     max-width: 35%;
     max-height: auto;
+}
+
+.floating-menu {
+    font-family: sens-serif;
+    background: null;
+    text-align: left;
+    padding: 5px;
+    height: 500px;
+    width: 130px;
+    z-index: 3000;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    font-size: 3em;
+
 }
