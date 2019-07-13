@@ -16,11 +16,8 @@ h2 {
 }
 
 p {
-    
-    border-style: solid;
-    border-width: 2px;
-    border-radius: 5px;
-    border-color: blueviolet;
+    color:white;
+    font-size: 120px
 
 }
 
