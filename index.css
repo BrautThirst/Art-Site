@@ -3,12 +3,16 @@ html {
 }
 
 body {
-    background-color: rgb(240, 252, 252);
+    background-color: rgb(24, 24, 24);
     text-align: center;
 }
 
 h1 {
     font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    color: white;
 }
 
 p {
@@ -26,6 +30,7 @@ ul {
     margin-right: auto;
     width: 100%;
     
+    
 }
 
 li {
@@ -35,7 +40,7 @@ li {
 }
 
 a {
-    color: green;
+    color: white;
 }
 
 .error {
@@ -56,8 +61,70 @@ a {
     width: 130px;
     z-index: 3000;
     position: fixed;
-    bottom: 0px;
+    bottom: 50px;
     left: 0px;
     font-size: 3em;
+    
 
 }
+
+.button {
+    border: 2px solid rgb(255, 65, 74);
+    background-color: none;
+    color: white;
+    padding: 15px 37px; /*height and width*/
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 48px;
+    border-radius: 8px;
+}
+
+.button:hover {
+    background-color: rgb(255,65,74);
+    color: white;
+    border: 2px solid rgb(255,65,74);
+    border-radius: 8px;
+    transition-duration: 0.4s;
+}
+
+.button1 {
+    border: 2px solid rgb(89, 222, 130);
+    background-color: none;
+    color: white;
+    padding: 15px 23.5px; /*height and width*/
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 48px;
+    border-radius: 8px;
+}
+
+.button1:hover {
+    background-color: rgb(89,222,130);
+    color: white;
+    border: 2px solid rgb(89,222,130);
+    border-radius: 8px;
+    transition-duration: 0.4s;
+}
+
+.button2 {
+    border: 2px solid rgb(0, 166, 197);
+    background-color: none;
+    color: white;
+    padding: 15px 26.5px; /*height and width*/
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 48px;
+    border-radius: 8px;
+}
+
+.button2:hover{
+    background-color: rgb(0,166,197);
+    color: white;
+    border: 2px solid rgb(0,166,197);
+    border-radius: 8px;
+    transition-duration: 0.4s;
+}
+
